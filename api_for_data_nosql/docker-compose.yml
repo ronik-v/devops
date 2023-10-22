@@ -1,0 +1,15 @@
+version: ‘3.8’
+
+services:
+   redis:
+     image: redislabs/redismod
+     container_name: redis
+     ports:
+       - '6379:6379'
+   cache_api:
+        build: .
+        container_name: cache_api
+        ports:
+            - "8080:8080"
+        depends_on:
+            - redis
