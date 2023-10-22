@@ -3,6 +3,7 @@ Utility for monitoring memory on the device\API and docker-compose
 
 ## api_for_data_nosql
 Create docker-compose.yml that deploys a python application with a simple REST API implementation. The solution should consist of two containers:
+    
     a) Any NoSQL DB.
 
     b) A python application using Flask that listens on port 8080 and accepts only GET, POST, PUT methods.
