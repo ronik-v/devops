@@ -1,5 +1,6 @@
 # devops
-Utility for monitoring memory on the device\API and docker-compose
+
+[test] Utility for monitoring memory on the device\API and docker-compose.
 
 ## api_for_data_nosql
 Create docker-compose.yml that deploys a python application with a simple REST API implementation. The solution should consist of two containers:
